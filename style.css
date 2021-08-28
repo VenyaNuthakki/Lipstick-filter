@@ -1,0 +1,43 @@
+body{
+    background-image: url("background.jpg");
+}
+
+h1{
+    font-size: 25px !important;
+}
+
+button{
+    font-size: 20px !important;
+}
+
+.btn-success:hover{
+    background-color: mediumpurple;
+    border: midnightblue 10px solid;
+}
+
+.btn-info:hover{
+    background-color: mediumvioletred;
+    border: powderblue 10px solid
+}
+
+canvas{
+    animation-name: Test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Test{
+    0%{
+        box-shadow: 5px 5px 15px red;
+        border: goldenrod 5px dotted;
+    }
+
+    50%{
+        box-shadow: 5px 5px 15px yellow;
+    }
+
+    100%{
+        box-shadow: 5px 5px 15px blue;
+        border: 5px solid rgb(71, 203, 255)
+    }
+}
